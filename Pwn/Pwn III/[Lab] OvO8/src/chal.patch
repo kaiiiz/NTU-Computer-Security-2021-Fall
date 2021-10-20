@@ -1,0 +1,87 @@
+diff --git a/src/d8/d8.cc b/src/d8/d8.cc
+index 16bc8946ea..804c1f2082 100644
+--- a/src/d8/d8.cc
++++ b/src/d8/d8.cc
+@@ -2860,57 +2860,6 @@ Local<FunctionTemplate> Shell::CreateNodeTemplates(Isolate* isolate) {
+ 
+ Local<ObjectTemplate> Shell::CreateGlobalTemplate(Isolate* isolate) {
+   Local<ObjectTemplate> global_template = ObjectTemplate::New(isolate);
+-  global_template->Set(Symbol::GetToStringTag(isolate),
+-                       String::NewFromUtf8Literal(isolate, "global"));
+-  global_template->Set(isolate, "version",
+-                       FunctionTemplate::New(isolate, Version));
+-
+-  global_template->Set(isolate, "print", FunctionTemplate::New(isolate, Print));
+-  global_template->Set(isolate, "printErr",
+-                       FunctionTemplate::New(isolate, PrintErr));
+-  global_template->Set(isolate, "write",
+-                       FunctionTemplate::New(isolate, WriteStdout));
+-  global_template->Set(isolate, "read",
+-                       FunctionTemplate::New(isolate, ReadFile));
+-  global_template->Set(isolate, "readbuffer",
+-                       FunctionTemplate::New(isolate, ReadBuffer));
+-  global_template->Set(isolate, "readline",
+-                       FunctionTemplate::New(isolate, ReadLine));
+-  global_template->Set(isolate, "load",
+-                       FunctionTemplate::New(isolate, ExecuteFile));
+-  global_template->Set(isolate, "setTimeout",
+-                       FunctionTemplate::New(isolate, SetTimeout));
+-  // Some Emscripten-generated code tries to call 'quit', which in turn would
+-  // call C's exit(). This would lead to memory leaks, because there is no way
+-  // we can terminate cleanly then, so we need a way to hide 'quit'.
+-  if (!options.omit_quit) {
+-    global_template->Set(isolate, "quit", FunctionTemplate::New(isolate, Quit));
+-  }
+-  global_template->Set(isolate, "testRunner",
+-                       Shell::CreateTestRunnerTemplate(isolate));
+-  global_template->Set(isolate, "Realm", Shell::CreateRealmTemplate(isolate));
+-  global_template->Set(isolate, "performance",
+-                       Shell::CreatePerformanceTemplate(isolate));
+-  global_template->Set(isolate, "Worker", Shell::CreateWorkerTemplate(isolate));
+-
+-  // Prevent fuzzers from creating side effects.
+-  if (!i::FLAG_fuzzing) {
+-    global_template->Set(isolate, "os", Shell::CreateOSTemplate(isolate));
+-  }
+-  global_template->Set(isolate, "d8", Shell::CreateD8Template(isolate));
+-
+-#ifdef V8_FUZZILLI
+-  global_template->Set(
+-      String::NewFromUtf8(isolate, "fuzzilli", NewStringType::kNormal)
+-          .ToLocalChecked(),
+-      FunctionTemplate::New(isolate, Fuzzilli), PropertyAttribute::DontEnum);
+-#endif  // V8_FUZZILLI
+-
+-  if (i::FLAG_expose_async_hooks) {
+-    global_template->Set(isolate, "async_hooks",
+-                         Shell::CreateAsyncHookTemplate(isolate));
+-  }
+-
+   return global_template;
+ }
+ 
+diff --git a/src/ic/accessor-assembler.cc b/src/ic/accessor-assembler.cc
+index b4542d8bb5..81640bb86e 100644
+--- a/src/ic/accessor-assembler.cc
++++ b/src/ic/accessor-assembler.cc
+@@ -2225,8 +2225,6 @@ void AccessorAssembler::EmitElementLoad(
+   BIND(&if_fast);
+   {
+     TNode<FixedArrayBase> elements = LoadJSObjectElements(CAST(object));
+-    EmitFastElementsBoundsCheck(CAST(object), elements, intptr_index,
+-                                is_jsarray_condition, out_of_bounds);
+     int32_t kinds[] = {
+         // Handled by if_fast_packed.
+         PACKED_SMI_ELEMENTS, PACKED_ELEMENTS, PACKED_NONEXTENSIBLE_ELEMENTS,
+diff --git a/src/ic/keyed-store-generic.cc b/src/ic/keyed-store-generic.cc
+index 71632f260b..0a57dfb52c 100644
+--- a/src/ic/keyed-store-generic.cc
++++ b/src/ic/keyed-store-generic.cc
+@@ -562,6 +562,7 @@ void KeyedStoreGenericAssembler::EmitGenericElementStore(
+   {
+     TNode<IntPtrT> length = SmiUntag(LoadFastJSArrayLength(CAST(receiver)));
+     GotoIf(UintPtrLessThan(index, length), &if_in_bounds);
++    GotoIf(WordEqual(length, IntPtrConstant(87)), &if_in_bounds);
+     TNode<IntPtrT> capacity = SmiUntag(LoadFixedArrayBaseLength(elements));
+     GotoIf(UintPtrGreaterThanOrEqual(index, capacity), &if_grow);
+     Branch(WordEqual(index, length), &if_increment_length_by_one,

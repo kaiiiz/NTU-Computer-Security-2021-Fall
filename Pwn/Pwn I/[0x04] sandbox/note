@@ -1,0 +1,31 @@
+
+0x137a
+0x000055a9d651537a
+
+0xf0963
+
+(rcx-0xf0963)+0x28000+(0xcb140-0x26000)
+
+code_base = r8 - 0x37a
+read_plt = code_base + 0x140
+read_got = code_base + 0x14b+0x2e5d # 0x2fa8
+
+#libc_base = read_got - 0xc88b0
+
+open = libc_base + (0xee5c0-0x26000)
+read = libc_base + (0xee8b0-0x26000)
+write = libc_base + (0xee950-0x26000)
+execev = libc_base +(0xcb140-0x26000)
+
+# libc 2.31
+open = libc_base + (0x110e50-0x25000)
+read = libc_base + (0x111130-0x25000)
+write = libc_base + (0x1111d0-0x25000)
+
+0x00007f7803fca000 0x00007f7803fcc000
+0x00007f7803fcc000 0x00007f7803ff2000
+0x00007f7803ff2000 0x00007f780413b000 0x0000000000026000 r-x /usr/lib/x86_64-linux-gnu/libc-2.32.so
+
+0x00007f3f34b0e000 0x00007f3f34b10000 0x0000000000000000 rw-
+0x00007f3f34b10000 0x00007f3f34b36000 0x0000000000000000 r-- /usr/lib/x86_64-linux-gnu/libc-2.32.so
+0x00007f3f34b36000 0x00007f3f34c7f000 0x0000000000026000 r-x /usr/lib/x86_64-linux-gnu/libc-2.32.so

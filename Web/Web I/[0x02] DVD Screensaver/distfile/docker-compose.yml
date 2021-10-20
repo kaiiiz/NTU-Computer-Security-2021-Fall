@@ -1,0 +1,26 @@
+version: '3.5'
+
+services:
+  web:
+    build: .
+    image: week1/flag_profile
+    ports:
+      - "10001:9453/tcp"
+    environment:
+      - SECRET_KEY=d2908c1de1cd896d90f09df7df67e1d4
+    depends_on:
+      - database
+
+  database:
+    image: mysql
+    restart: always
+    ports:
+      - 3306
+      - 33060
+    volumes:
+      - ./db.sql:/docker-entrypoint-initdb.d/init.sql:ro
+    environment:
+      - MYSQL_RANDOM_ROOT_PASSWORD=1
+      - MYSQL_USER=user
+      - MYSQL_PASSWORD=pa55w0rd
+      - MYSQL_DATABASE=db

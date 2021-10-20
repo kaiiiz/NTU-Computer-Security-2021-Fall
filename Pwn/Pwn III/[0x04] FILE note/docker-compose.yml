@@ -1,0 +1,9 @@
+version: '3'
+
+services:
+  filenote:
+    build: .
+    ports:
+      - "30218:30218"
+    expose:
+      - "30218"

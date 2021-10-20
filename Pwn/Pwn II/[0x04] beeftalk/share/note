@@ -1,0 +1,217 @@
+pwndbg> heapinfo
+(0x20)     fastbin[0]: 0x0
+(0x30)     fastbin[1]: 0x0
+(0x40)     fastbin[2]: 0x0
+(0x50)     fastbin[3]: 0x0
+(0x60)     fastbin[4]: 0x0
+(0x70)     fastbin[5]: 0x0
+(0x80)     fastbin[6]: 0x0
+(0x90)     fastbin[7]: 0x0
+(0xa0)     fastbin[8]: 0x0
+(0xb0)     fastbin[9]: 0x0
+                  top: 0x556bd0df2e90 (size : 0x20170)
+       last_remainder: 0x556bd0df2b90 (size : 0x40)
+            unsortbin: 0x556bd0df2b90 (size : 0x40)
+(0x020)  smallbin[ 0]: 0x556bd0df2d60  <--> 0x556bd0df2800
+(0x0a0)  smallbin[ 8]: 0x556bd0df2980
+(0x20)   tcache_entry[0](2): 0x556bd0df2520 --> 0x556bd0df2370
+(0x90)   tcache_entry[7](7): 0x556bd0df2e10 --> 0x556bd0df2c60 --> 0x556bd0df2ab0 --> 0x556bd0df2900 --> 0x556bd0df2750 --> 0x556bd0df25a0 --> 0x556bd0df23f0
+
+
+---
+Allocated chunk | PREV_INUSE
+Addr: 0x556bd0df2000
+Size: 0x291
+
+Allocated chunk | PREV_INUSE
+Addr: 0x556bd0df2290
+Size: 0x51
+
+Allocated chunk | PREV_INUSE
+Addr: 0x556bd0df22e0
+Size: 0x31
+
+Allocated chunk | PREV_INUSE
+Addr: 0x556bd0df2310 <-- user3
+Size: 0x51
+
+Free chunk (tcache) | PREV_INUSE
+Addr: 0x556bd0df2360
+Size: 0x21
+fd: 0x00
+
+Allocated chunk | PREV_INUSE
+Addr: 0x556bd0df2380 <-- user1.fifo2
+Size: 0x31
+
+Allocated chunk | PREV_INUSE
+Addr: 0x556bd0df23b0 <-- user1.fifo0
+Size: 0x31
+
+Free chunk (tcache) | PREV_INUSE
+Addr: 0x556bd0df23e0
+Size: 0x91
+fd: 0x00
+
+Allocated chunk | PREV_INUSE
+Addr: 0x556bd0df2470 <-- user1.desc
+Size: 0x51
+
+Allocated chunk | PREV_INUSE
+Addr: 0x556bd0df24c0 <-- user2
+Size: 0x51
+
+Free chunk (tcache) | PREV_INUSE
+Addr: 0x556bd0df2510
+Size: 0x21
+fd: 0x556bd0df2370
+
+Allocated chunk | PREV_INUSE
+Addr: 0x556bd0df2530 <-- user1.name
+Size: 0x31
+
+Allocated chunk | PREV_INUSE
+Addr: 0x556bd0df2560 <-- user0.name
+Size: 0x31
+
+Free chunk (tcache) | PREV_INUSE
+Addr: 0x556bd0df2590
+Size: 0x91
+fd: 0x556bd0df23f0
+
+Allocated chunk | PREV_INUSE
+Addr: 0x556bd0df2620 <-- user0.desc
+Size: 0x51
+
+Allocated chunk | PREV_INUSE
+Addr: 0x556bd0df2670 <-- user1
+Size: 0x51
+
+Allocated chunk | PREV_INUSE
+Addr: 0x556bd0df26c0
+Size: 0x21
+
+Allocated chunk | PREV_INUSE
+Addr: 0x556bd0df26e0 <-- user0.fifo0
+Size: 0x31
+
+Allocated chunk | PREV_INUSE
+Addr: 0x556bd0df2710 <-- user0.fifo1
+Size: 0x31
+
+Free chunk (tcache) | PREV_INUSE
+Addr: 0x556bd0df2740
+Size: 0x91
+fd: 0x556bd0df25a0
+
+Allocated chunk | PREV_INUSE
+Addr: 0x556bd0df27d0
+Size: 0x31
+
+Free chunk (smallbins) | PREV_INUSE
+Addr: 0x556bd0df2800
+Size: 0x21
+fd: 0x7f3a903f9bf0
+bk: 0x556bd0df2d60
+
+Allocated chunk
+Addr: 0x556bd0df2820 <-- user0
+Size: 0x50
+
+Allocated chunk | PREV_INUSE
+Addr: 0x556bd0df2870
+Size: 0x21
+
+Allocated chunk | PREV_INUSE
+Addr: 0x556bd0df2890 <-- user4
+Size: 0x61
+
+Free chunk (tcache) | PREV_INUSE
+Addr: 0x556bd0df28f0
+Size: 0x91
+fd: 0x556bd0df2750
+
+Free chunk (smallbins) | PREV_INUSE
+Addr: 0x556bd0df2980
+Size: 0xa1
+fd: 0x7f3a903f9c70
+bk: 0x7f3a903f9c70
+
+Allocated chunk
+Addr: 0x556bd0df2a20
+Size: 0x20
+
+Allocated chunk | PREV_INUSE
+Addr: 0x556bd0df2a40
+Size: 0x31
+
+Allocated chunk | PREV_INUSE
+Addr: 0x556bd0df2a70
+Size: 0x31
+
+Free chunk (tcache) | PREV_INUSE
+Addr: 0x556bd0df2aa0
+Size: 0x91
+fd: 0x556bd0df2900
+
+Allocated chunk | PREV_INUSE
+Addr: 0x556bd0df2b30 <-- user5
+Size: 0x31
+
+Allocated chunk | PREV_INUSE
+Addr: 0x556bd0df2b60
+Size: 0x31
+
+Free chunk (unsortedbin) | PREV_INUSE
+Addr: 0x556bd0df2b90
+Size: 0x41
+fd: 0x7f3a903f9be0
+bk: 0x7f3a903f9be0
+
+Allocated chunk
+Addr: 0x556bd0df2bd0 <-- user1.job
+Size: 0x20
+
+Allocated chunk | PREV_INUSE
+Addr: 0x556bd0df2bf0
+Size: 0x61
+
+Free chunk (tcache) | PREV_INUSE
+Addr: 0x556bd0df2c50
+Size: 0x91
+fd: 0x556bd0df2ab0
+
+Allocated chunk | PREV_INUSE
+Addr: 0x556bd0df2ce0 <-- user6
+Size: 0x31
+
+Allocated chunk | PREV_INUSE
+Addr: 0x556bd0df2d10
+Size: 0x51
+
+Free chunk (smallbins) | PREV_INUSE
+Addr: 0x556bd0df2d60
+Size: 0x21
+fd: 0x556bd0df2800
+bk: 0x7f3a903f9bf0
+
+Allocated chunk
+Addr: 0x556bd0df2d80 <-- user0.job
+Size: 0x20
+
+Allocated chunk | PREV_INUSE
+Addr: 0x556bd0df2da0
+Size: 0x31
+
+Allocated chunk | PREV_INUSE
+Addr: 0x556bd0df2dd0
+Size: 0x31
+
+Free chunk (tcache) | PREV_INUSE
+Addr: 0x556bd0df2e00
+Size: 0x91
+fd: 0x556bd0df2c60
+
+Top chunk | PREV_INUSE
+Addr: 0x556bd0df2e90
+Size: 0x20171

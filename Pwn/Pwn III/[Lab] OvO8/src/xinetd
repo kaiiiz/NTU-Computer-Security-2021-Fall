@@ -1,0 +1,14 @@
+service ctf
+{
+    disable = no
+    socket_type = stream
+    protocol    = tcp
+    wait        = no
+    user        = ovo8
+    type        = UNLISTED
+    port        = 30219
+    bind        = 0.0.0.0
+    server      = /home/ovo8/run.sh
+    per_source	= 10 # the maximum instances of this service per source IP address
+    rlimit_cpu	= 10 # the maximum number of CPU seconds that the service may use
+}

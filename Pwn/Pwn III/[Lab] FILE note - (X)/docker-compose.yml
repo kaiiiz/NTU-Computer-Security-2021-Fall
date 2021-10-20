@@ -1,0 +1,9 @@
+version: '3'
+
+services:
+  filenote_x:
+    build: .
+    ports:
+      - "30217:30217"
+    expose:
+      - "30217"

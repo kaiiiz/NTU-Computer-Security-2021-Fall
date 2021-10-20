@@ -1,0 +1,14 @@
+service ctf
+{
+    disable = no
+    socket_type = stream
+    protocol    = tcp
+    wait        = no
+    user        = filenote
+    type        = UNLISTED
+    port        = 30218
+    bind        = 0.0.0.0
+    server      = /home/filenote/chal
+    per_source	= 10 # the maximum instances of this service per source IP address
+    rlimit_cpu	= 10 # the maximum number of CPU seconds that the service may use
+}
