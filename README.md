@@ -62,22 +62,22 @@ Web: `1000/1300`
 
 Reverse: `1000/1000`
 
-| HW                        | Type  | Points |
-| ------------------------- | ----- | ------ |
-| [Lab] baby                | `All` | 20     |
-| [Lab] list                | `All` | 20     |
-| [Lab] main1               | `All` | 20     |
-| [Lab] main2               | `All` | 20     |
-| [Lab] main3               | `All` | 20     |
-| [Lab] main4               | `All` | 20     |
-| [0x03] fifo               | `All` | 250    |
-| [Lab] HelloWindows        | `All` | 20     |
-| [Lab] Cpp_Traditional_GUI | `All` | 20     |
-| [Lab] dll                 | `All` | 20     |
-| [0x03] giveUflag          | `All` | 250    |
-| [Lab] HellWindows         | `All` | 20     |
-| [Lab] 3xc3pt              | `All` | 20     |
-| [0x03] nani               | `All` | 280    |
+| HW                        | Type                          | Points |
+| ------------------------- | ----------------------------- | ------ |
+| [Lab] baby                | `Basic`                       | 20     |
+| [Lab] list                | `Basic`                       | 20     |
+| [Lab] main1               | `Where to start`              | 20     |
+| [Lab] main2               | `Where to start`              | 20     |
+| [Lab] main3               | `Where to start`              | 20     |
+| [Lab] main4               | `Where to start`              | 20     |
+| [0x03] fifo               | `FIFO`, `Fork`                | 250    |
+| [Lab] HelloWindows        | `VirtualProtect`              | 20     |
+| [Lab] Cpp_Traditional_GUI | `MessageBox`                  | 20     |
+| [Lab] dll                 | `dll`                         | 20     |
+| [0x03] giveUflag          | `dll`                         | 250    |
+| [Lab] HellWindows         | `TLS Callback`                | 20     |
+| [Lab] 3xc3pt              | `Exception Handler`           | 20     |
+| [0x03] nani               | `Packer`, `Exception Handler` | 280    |
 
 Pwn: `1240/1240`
 
