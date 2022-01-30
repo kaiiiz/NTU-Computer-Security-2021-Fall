@@ -28,9 +28,9 @@ Crypto: `1000/1000`
 | [Lab] Geffe        | `LFSR`, `Correlation Attacks`        | 50     |
 | [Lab] POA          | `Padding Oracle Attack`              | 50     |
 | [0x01] nLFSR       | `LFSR`                               | 150    |
-| [Lab] LSB          | `All`                                | 50     |
-| [Lab] Pohel        | `All`                                | 50     |
-| [0x01] Single      | `All`                                | 200    |
+| [Lab] LSB          | `LSB Oracle`                         | 50     |
+| [Lab] Pohel        | `Pohlig-Hellman Algorithm`           | 50     |
+| [0x01] Single      | `Sinular Elliptic Curve`             | 200    |
 | [Lab] HNP          | `All`                                | 50     |
 | [Lab] LEA          | `All`                                | 50     |
 | [Lab] LAT          | `All`                                | 50     |
