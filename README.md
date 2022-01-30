@@ -10,7 +10,7 @@
 
 ## 作業
 
-除了 Web II 的 Profile Card 因為不用寫也可以得到滿分所以沒寫，其他都有寫完，總分為：`4440 / 4740`
+除了 Web II 的 Profile Card 沒寫，其他都有寫完，總分為：`4440 / 4740`
 
 ![](images/rank.png)
 
@@ -22,19 +22,19 @@
 
 Crypto: `1000/1000`
 
-| HW                 | Type  | Points |
-| ------------------ | ----- | ------ |
-| [Lab] Grams        | `All` | 50     |
-| [Lab] Geffe        | `All` | 50     |
-| [Lab] POA          | `All` | 50     |
-| [0x01] nLFSR       | `All` | 150    |
-| [Lab] LSB          | `All` | 50     |
-| [Lab] Pohel        | `All` | 50     |
-| [0x01] Single      | `All` | 200    |
-| [Lab] HNP          | `All` | 50     |
-| [Lab] LEA          | `All` | 50     |
-| [Lab] LAT          | `All` | 50     |
-| [0x01] HNP-revenge | `All` | 250    |
+| HW                 | Type                                 | Points |
+| ------------------ | ------------------------------------ | ------ |
+| [Lab] Grams        | `Vigenere Cipher`, `N-Grams Attacks` | 50     |
+| [Lab] Geffe        | `LFSR`, `Correlation Attacks`        | 50     |
+| [Lab] POA          | `Padding Oracle Attack`              | 50     |
+| [0x01] nLFSR       | `LFSR`                               | 150    |
+| [Lab] LSB          | `All`                                | 50     |
+| [Lab] Pohel        | `All`                                | 50     |
+| [0x01] Single      | `All`                                | 200    |
+| [Lab] HNP          | `All`                                | 50     |
+| [Lab] LEA          | `All`                                | 50     |
+| [Lab] LAT          | `All`                                | 50     |
+| [0x01] HNP-revenge | `All`                                | 250    |
 
 Web: `1000/1300`
 
@@ -85,19 +85,19 @@ Pwn: `1240/1240`
 | --------------------- | ----- | ------ |
 | [Lab] Got2win         | `All` | 20     |
 | [Lab] Rop2win         | `All` | 20     |
-| [0x04] sandbox        | `All` | 100     |
-| [0x04] fullchain      | `All` | 150     |
-| [0x04] fullchain-nerf | `All` | 100     |
+| [0x04] sandbox        | `All` | 100    |
+| [0x04] fullchain      | `All` | 150    |
+| [0x04] fullchain-nerf | `All` | 100    |
 | [Lab] heapmath        | `All` | 20     |
 | [Lab] market          | `All` | 20     |
 | [0x04] final          | `All` | 50     |
-| [0x04] easyheap       | `All` | 150     |
-| [0x04] beeftalk       | `All` | 150     |
+| [0x04] easyheap       | `All` | 150    |
+| [0x04] beeftalk       | `All` | 150    |
 | [Lab] FILE note - (R) | `All` | 20     |
 | [Lab] FILE note - (W) | `All` | 20     |
 | [Lab] FILE note - (X) | `All` | 20     |
-| [0x04] FILE note      | `All` | 300     |
-| [Lab] OvO8            | `All` | 100     |
+| [0x04] FILE note      | `All` | 300    |
+| [Lab] OvO8            | `All` | 100    |
 
 各項佔總成績為：
 
@@ -111,4 +111,4 @@ Pwn: `1240/1240`
 | 課外參與 (10%)  | 90    |
 | Final CTF (25%) | 83.21 |
 
-writeup 以及 exploit 參閱個作業的資料夾。
+writeup 以及 exploit 參閱各作業的資料夾。
