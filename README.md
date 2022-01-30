@@ -38,27 +38,27 @@ Crypto: `1000/1000`
 
 Web: `1000/1300`
 
-| HW                           | Type  | Points |
-| ---------------------------- | ----- | ------ |
-| [Lab] Cat Shop               | `All` | 10     |
-| [Lab] 喵 site                | `All` | 10     |
-| [Lab] Hakka MD               | `All` | 20     |
-| [Lab] DNS Lookup Tool        | `All` | 10     |
-| [Lab] DNS Lookup Tool - WAF  | `All` | 20     |
-| [Lab] Log me in              | `All` | 20     |
-| [0x02] Imgura                | `All` | 150    |
-| [0x02] DVD Screensaver       | `All` | 250    |
-| [Lab] Log me in: Revenge     | `All` | 20     |
-| [Lab] Preview Card           | `All` | 20     |
-| [Lab] SSRFrog                | `All` | 20     |
-| [Lab] Pickle                 | `All` | 20     |
-| [0x02] Profile Card          | `All` | 300    |
-| [Lab] Serializable Cat       | `All` | 20     |
-| [Lab] Serializable Magic Cat | `All` | 20     |
-| [Lab] XSS Me                 | `All` | 20     |
-| [Lab] Jinja SSTI             | `All` | 20     |
-| [0x02] Double SSTI           | `All` | 150    |
-| [0x02] Log me in: FINAL      | `All` | 200    |
+| HW                           | Type                                               | Points |
+| ---------------------------- | -------------------------------------------------- | ------ |
+| [Lab] Cat Shop               | `Basic`                                            | 10     |
+| [Lab] 喵 site                | `Basic LFI`                                        | 10     |
+| [Lab] Hakka MD               | `LFI`, `RCE`                                       | 20     |
+| [Lab] DNS Lookup Tool        | `Command injection`                                | 10     |
+| [Lab] DNS Lookup Tool - WAF  | `Command injection`, `WAF`                         | 20     |
+| [Lab] Log me in              | `SQL injection`                                    | 20     |
+| [0x02] Imgura                | `Information Leak`, `Upload`, `LFI`                | 150    |
+| [0x02] DVD Screensaver       | `Path traversal`, `SQL injection`, `Signed Cookie` | 250    |
+| [Lab] Log me in: Revenge     | `UNION-based SQL injection`                        | 20     |
+| [Lab] Preview Card           | `SSRF`, `gopher://`                                | 20     |
+| [Lab] SSRFrog                | `SSRF`, `Bypass blacklist`                         | 20     |
+| [Lab] Pickle                 | `Deserialization`, `pickle`                        | 20     |
+| [0x02] Profile Card          | `XSS`, `CSRF`, `CSP Bypass`                        | 300    |
+| [Lab] Serializable Cat       | `Deserialization`, `Basic PHP unserialize`         | 20     |
+| [Lab] Serializable Magic Cat | `Deserialization`, `POP chain`                     | 20     |
+| [Lab] XSS Me                 | `Frontend`                                         | 20     |
+| [Lab] Jinja SSTI             | `SSTI`                                             | 20     |
+| [0x02] Double SSTI           | `SSTI`                                             | 150    |
+| [0x02] Log me in: FINAL      | `SQL injection`, `Information Leak`                | 200    |
 
 Reverse: `1000/1000`
 
