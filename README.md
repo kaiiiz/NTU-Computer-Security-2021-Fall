@@ -30,11 +30,11 @@ Crypto: `1000/1000`
 | [0x01] nLFSR       | `LFSR`                               | 150    |
 | [Lab] LSB          | `LSB Oracle`                         | 50     |
 | [Lab] Pohel        | `Pohlig-Hellman Algorithm`           | 50     |
-| [0x01] Single      | `Sinular Elliptic Curve`             | 200    |
-| [Lab] HNP          | `All`                                | 50     |
-| [Lab] LEA          | `All`                                | 50     |
-| [Lab] LAT          | `All`                                | 50     |
-| [0x01] HNP-revenge | `All`                                | 250    |
+| [0x01] Single      | `Elliptic Curve (Singular)`          | 200    |
+| [Lab] HNP          | `ECDSA`                              | 50     |
+| [Lab] LEA          | `Length Extension Attack`            | 50     |
+| [Lab] LAT          | `Gaussian Lattice Reduction`         | 50     |
+| [0x01] HNP-revenge | `LLL`                                | 250    |
 
 Web: `1000/1300`
 
