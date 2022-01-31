@@ -38,27 +38,27 @@ Crypto: `1000/1000`
 
 Web: `1000/1300`
 
-| HW                           | Type                                               | Points |
-| ---------------------------- | -------------------------------------------------- | ------ |
-| [Lab] Cat Shop               | `Basic`                                            | 10     |
-| [Lab] 喵 site                | `Basic LFI`                                        | 10     |
-| [Lab] Hakka MD               | `LFI`, `RCE`                                       | 20     |
-| [Lab] DNS Lookup Tool        | `Command injection`                                | 10     |
-| [Lab] DNS Lookup Tool - WAF  | `Command injection`, `WAF`                         | 20     |
-| [Lab] Log me in              | `SQL injection`                                    | 20     |
-| [0x02] Imgura                | `Information Leak`, `Upload`, `LFI`                | 150    |
-| [0x02] DVD Screensaver       | `Path traversal`, `SQL injection`, `Signed Cookie` | 250    |
-| [Lab] Log me in: Revenge     | `UNION-based SQL injection`                        | 20     |
-| [Lab] Preview Card           | `SSRF`, `gopher://`                                | 20     |
-| [Lab] SSRFrog                | `SSRF`, `Bypass blacklist`                         | 20     |
-| [Lab] Pickle                 | `Deserialization`, `pickle`                        | 20     |
-| [0x02] Profile Card          | `XSS`, `CSRF`, `CSP Bypass`                        | 300    |
-| [Lab] Serializable Cat       | `Deserialization`, `Basic PHP unserialize`         | 20     |
-| [Lab] Serializable Magic Cat | `Deserialization`, `POP chain`                     | 20     |
-| [Lab] XSS Me                 | `Frontend`                                         | 20     |
-| [Lab] Jinja SSTI             | `SSTI`                                             | 20     |
-| [0x02] Double SSTI           | `SSTI`                                             | 150    |
-| [0x02] Log me in: FINAL      | `SQL injection`, `Information Leak`                | 200    |
+| HW                                                                                   | Type                                               | Points |
+| ------------------------------------------------------------------------------------ | -------------------------------------------------- | ------ |
+| [[Lab] Cat Shop](Web/Web%20I/%5BLab%5D%20Cat%20Shop)                                 | `Basic`                                            | 10     |
+| [[Lab] 喵 site](Web/Web%20I/%5BLab%5D%20喵%20site)                                   | `Basic LFI`                                        | 10     |
+| [[Lab] Hakka MD](Web/Web%20I/%5BLab%5D%20Hakka%20MD)                                 | `LFI`, `RCE`                                       | 20     |
+| [[Lab] DNS Lookup Tool](Web/Web%20I/%5BLab%5D%20DNS%20Lookup%20Tool)                 | `Command injection`                                | 10     |
+| [[Lab] DNS Lookup Tool - WAF](Web/Web%20I/%5BLab%5D%20DNS%20Lookup%20Tool%20-%20WAF) | `Command injection`, `WAF`                         | 20     |
+| [[Lab] Log me in](Web/Web%20I/%5BLab%5D%20Log%20me%20in)                             | `SQL injection`                                    | 20     |
+| [[0x02] Imgura](Web/Web%20I/%5B0x02%5D%20Imgura)                                     | `Information Leak`, `Upload`, `LFI`                | 150    |
+| [[0x02] DVD Screensaver](Web/Web%20I/%5B0x02%5D%20DVD%20Screensaver)                 | `Path traversal`, `SQL injection`, `Signed Cookie` | 250    |
+| [[Lab] Log me in: Revenge](Web/Web%20II/%5BLab%5D%20Log%20me%20in%20Revenge)         | `UNION-based SQL injection`                        | 20     |
+| [[Lab] Preview Card](Web/Web%20II/%5BLab%5D%20Preview%20Card)                        | `SSRF`, `gopher://`                                | 20     |
+| [[Lab] SSRFrog](Web/Web%20II/%5BLab%5D%20SSRFrog)                                    | `SSRF`, `Bypass blacklist`                         | 20     |
+| [[Lab] Pickle](Web/Web%20III/%5BLab%5D%20Pickle)                                     | `Deserialization`, `pickle`                        | 20     |
+| [0x02] Profile Card                                                                  | `XSS`, `CSRF`, `CSP Bypass`                        | 300    |
+| [[Lab] Serializable Cat](Web/Web%20III/%5BLab%5D%20Serializable%20Cat)               | `Deserialization`, `Basic PHP unserialize`         | 20     |
+| [[Lab] Serializable Magic Cat](Web/Web%20III/%5BLab%5D%20Serializable%20Magic%20Cat) | `Deserialization`, `POP chain`                     | 20     |
+| [[Lab] XSS Me](Web/Web%20III/%5BLab%5D%20XSS%20Me)                                   | `Frontend`                                         | 20     |
+| [[Lab] Jinja SSTI](Web/Web%20III/%5BLab%5D%20Jinja%20SSTI)                           | `SSTI`                                             | 20     |
+| [[0x02] Double SSTI](Web/Web%20III/%5B0x02%5D%20Double%20SSTI)                       | `SSTI`                                             | 150    |
+| [[0x02] Log me in: FINAL](Web/Web%20III/%5B0x02%5D%20Log%20me%20in%20FINAL)          | `SQL injection`, `Information Leak`                | 200    |
 
 Reverse: `1000/1000`
 
