@@ -22,19 +22,19 @@
 
 Crypto: `1000/1000`
 
-| HW                                                               | Type                                 | Points |
-| ---------------------------------------------------------------- | ------------------------------------ | ------ |
-| [[Lab] Grams](Crypto/Crypto%20I/%5BLab%5D%20Grams)               | `Vigenere Cipher`, `N-Grams Attacks` | 50     |
-| [[Lab] Geffe](Crypto/Crypto%20I/%5BLab%5D%20Geffe)               | `LFSR`, `Correlation Attacks`        | 50     |
-| [[Lab] POA](Crypto/Crypto%20I/%5BLab%5D%20POA)                   | `Padding Oracle Attack`              | 50     |
-| [[0x01] nLFSR](Crypto/Crypto%20I/%5B0x01%5D%20nLFSR)             | `LFSR`                               | 150    |
-| [[Lab] LSB](Crypto/Crypto%20I/%5BLab%5D%20LSB)                   | `LSB Oracle`                         | 50     |
-| [[Lab] Pohel](Crypto/Crypto%20I/%5BLab%5D%20Pohel)               | `Pohlig-Hellman Algorithm`           | 50     |
-| [[0x01] Single](Crypto/Crypto%20I/%5B0x01%5D%20Single)           | `Elliptic Curve (Singular)`          | 200    |
-| [[Lab] HNP](Crypto/Crypto%20I/%5BLab%5D%20HNP)                   | `ECDSA`                              | 50     |
-| [[Lab] LEA](Crypto/Crypto%20I/%5BLab%5D%20LEA)                   | `Length Extension Attack`            | 50     |
-| [[Lab] LAT](Crypto/Crypto%20I/%5BLab%5D%20LAT)                   | `Gaussian Lattice Reduction`         | 50     |
-| [[0x01] HNP-revenge](Crypto/Crypto%20I/%5B0x01%5D%20HNP-revenge) | `LLL`                                | 250    |
+| HW                                                                 | Type                                 | Points |
+| ------------------------------------------------------------------ | ------------------------------------ | ------ |
+| [[Lab] Grams](Crypto/Crypto%20I/%5BLab%5D%20Grams)                 | `Vigenere Cipher`, `N-Grams Attacks` | 50     |
+| [[Lab] Geffe](Crypto/Crypto%20I/%5BLab%5D%20Geffe)                 | `LFSR`, `Correlation Attacks`        | 50     |
+| [[Lab] POA](Crypto/Crypto%20I/%5BLab%5D%20POA)                     | `Padding Oracle Attack`              | 50     |
+| [[0x01] nLFSR](Crypto/Crypto%20I/%5B0x01%5D%20nLFSR)               | `LFSR`                               | 150    |
+| [[Lab] LSB](Crypto/Crypto%20II/%5BLab%5D%20LSB)                    | `LSB Oracle`                         | 50     |
+| [[Lab] Pohel](Crypto/Crypto%20II/%5BLab%5D%20Pohel)                | `Pohlig-Hellman Algorithm`           | 50     |
+| [[0x01] Single](Crypto/Crypto%20II/%5B0x01%5D%20Single)            | `Elliptic Curve (Singular)`          | 200    |
+| [[Lab] HNP](Crypto/Crypto%20III/%5BLab%5D%20HNP)                   | `ECDSA`                              | 50     |
+| [[Lab] LEA](Crypto/Crypto%20III/%5BLab%5D%20LEA)                   | `Length Extension Attack`            | 50     |
+| [[Lab] LAT](Crypto/Crypto%20III/%5BLab%5D%20LAT)                   | `Gaussian Lattice Reduction`         | 50     |
+| [[0x01] HNP-revenge](Crypto/Crypto%20III/%5B0x01%5D%20HNP-revenge) | `LLL`                                | 250    |
 
 Web: `1000/1300`
 
