@@ -62,22 +62,22 @@ Web: `1000/1300`
 
 Reverse: `1000/1000`
 
-| HW                        | Type                          | Points |
-| ------------------------- | ----------------------------- | ------ |
-| [Lab] baby                | `Basic`                       | 20     |
-| [Lab] list                | `Basic`                       | 20     |
-| [Lab] main1               | `Where to start`              | 20     |
-| [Lab] main2               | `Where to start`              | 20     |
-| [Lab] main3               | `Where to start`              | 20     |
-| [Lab] main4               | `Where to start`              | 20     |
-| [0x03] fifo               | `FIFO`, `Fork`                | 250    |
-| [Lab] HelloWindows        | `VirtualProtect`              | 20     |
-| [Lab] Cpp_Traditional_GUI | `MessageBox`                  | 20     |
-| [Lab] dll                 | `dll`                         | 20     |
-| [0x03] giveUflag          | `dll`                         | 250    |
-| [Lab] HellWindows         | `TLS Callback`                | 20     |
-| [Lab] 3xc3pt              | `Exception Handler`           | 20     |
-| [0x03] nani               | `Packer`, `Exception Handler` | 280    |
+| HW                                                                                | Type                          | Points |
+| --------------------------------------------------------------------------------- | ----------------------------- | ------ |
+| [[Lab] baby](Reverse/Reverse%20I/%5BLab%5D%20baby)                                | `Basic`                       | 20     |
+| [[Lab] list](Reverse/Reverse%20I/%5BLab%5D%20list)                                | `Basic`                       | 20     |
+| [[Lab] main1](Reverse/Reverse%20I/%5BLab%5D%20main1)                              | `Where to start`              | 20     |
+| [[Lab] main2](Reverse/Reverse%20I/%5BLab%5D%20main2)                              | `Where to start`              | 20     |
+| [[Lab] main3](Reverse/Reverse%20I/%5BLab%5D%20main3)                              | `Where to start`              | 20     |
+| [[Lab] main4](Reverse/Reverse%20I/%5BLab%5D%20main4)                              | `Where to start`              | 20     |
+| [[0x03] fifo](Reverse/Reverse%20I/%5B0x03%5D%20fifo)                              | `FIFO`, `Fork`                | 250    |
+| [[Lab] HelloWindows](Reverse/Reverse%20II/%5BLab%5D%20HelloWindows)               | `VirtualProtect`              | 20     |
+| [[Lab] Cpp_Traditional_GUI](Reverse/Reverse%20II/%5BLab%5D%20Cpp_Traditional_GUI) | `MessageBox`                  | 20     |
+| [[Lab] dll](Reverse/Reverse%20II/%5BLab%5D%20dll)                                 | `dll`                         | 20     |
+| [[0x03] giveUflag](Reverse/Reverse%20II/%5B0x03%5D%20giveUflag)                   | `dll`                         | 250    |
+| [[Lab] HellWindows](Reverse/Reverse%20III/%5BLab%5D%20HellWindows)                | `TLS Callback`                | 20     |
+| [[Lab] 3xc3pt](Reverse/Reverse%20III/%5BLab%5D%203xc3pt)                          | `Exception Handler`           | 20     |
+| [[0x03] nani](Reverse/Reverse%20III/%5B0x03%5D%20nani)                            | `Packer`, `Exception Handler` | 280    |
 
 Pwn: `1240/1240`
 
