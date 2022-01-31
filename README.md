@@ -81,23 +81,23 @@ Reverse: `1000/1000`
 
 Pwn: `1240/1240`
 
-| HW                    | Type  | Points |
-| --------------------- | ----- | ------ |
-| [Lab] Got2win         | `All` | 20     |
-| [Lab] Rop2win         | `All` | 20     |
-| [0x04] sandbox        | `All` | 100    |
-| [0x04] fullchain      | `All` | 150    |
-| [0x04] fullchain-nerf | `All` | 100    |
-| [Lab] heapmath        | `All` | 20     |
-| [Lab] market          | `All` | 20     |
-| [0x04] final          | `All` | 50     |
-| [0x04] easyheap       | `All` | 150    |
-| [0x04] beeftalk       | `All` | 150    |
-| [Lab] FILE note - (R) | `All` | 20     |
-| [Lab] FILE note - (W) | `All` | 20     |
-| [Lab] FILE note - (X) | `All` | 20     |
-| [0x04] FILE note      | `All` | 300    |
-| [Lab] OvO8            | `All` | 100    |
+| HW                    | Type                   | Points |
+| --------------------- | ---------------------- | ------ |
+| [Lab] Got2win         | `GOT`                  | 20     |
+| [Lab] Rop2win         | `ROP`                  | 20     |
+| [0x04] sandbox        | `Shell code`           | 100    |
+| [0x04] fullchain      | `fmt`, `GOT`, `ROP`    | 150    |
+| [0x04] fullchain-nerf | `fmt`, `GOT`, `ROP`    | 100    |
+| [Lab] heapmath        | `Heap`                 | 20     |
+| [Lab] market          | `Heap`                 | 20     |
+| [0x04] final          | `Heap`                 | 50     |
+| [0x04] easyheap       | `Heap`                 | 150    |
+| [0x04] beeftalk       | `Heap`                 | 150    |
+| [Lab] FILE note - (R) | `Glibc File Structure` | 20     |
+| [Lab] FILE note - (W) | `Glibc File Structure` | 20     |
+| [Lab] FILE note - (X) | `Glibc File Structure` | 20     |
+| [0x04] FILE note      | `Glibc File Structure` | 300    |
+| [Lab] OvO8            | `Browser Exploitation` | 100    |
 
 各項佔總成績為：
 
