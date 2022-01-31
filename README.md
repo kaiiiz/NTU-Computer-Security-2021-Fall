@@ -112,3 +112,12 @@ Pwn: `1240/1240`
 | Final CTF (25%) | 83.21 |
 
 writeup 以及 exploit 參閱各作業的資料夾。
+
+## 環境
+
+```
+./snippet build
+./snippet up
+./snippet shell
+./snippet down
+```
