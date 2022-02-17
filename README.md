@@ -12,7 +12,7 @@
 
 除了 Web II 的 Profile Card 沒寫，其他都有寫完，總分為：`4440 / 4740`
 
-![](images/rank.png)
+![](rank.png)
 
 作業分類：
 
