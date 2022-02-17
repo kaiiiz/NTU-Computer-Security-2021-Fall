@@ -157,3 +157,4 @@ core
 *.out
 ._share
 node_modules
+.DS_Store
